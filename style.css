@@ -6,6 +6,6 @@ p {
   font-family: Monospace;
   text-align: center;
   font-size: 30px;
-  border-style: solid blue 10px;
+  border: solid blue 10px;
   padding: 20px;
 }
