@@ -1,6 +1,10 @@
+h1 {
+  text-align: center;
+}
+
 p {
   font-family: Monospace;
-  text-alignment: center;
+  text-align: center;
   font-size: 30px;
   border-style: solid blue 10px;
   padding: 20px;
