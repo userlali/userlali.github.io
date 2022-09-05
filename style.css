@@ -1,3 +1,7 @@
 p {
-  color: blue;
+  font-family: Monospace;
+  text-alignment: center;
+  font-size: 30px;
+  border-style: solid blue 10px;
+  padding: 20px;
 }
