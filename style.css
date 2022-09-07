@@ -11,7 +11,8 @@ p {
 .header {
  background-image: url("https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages_1000x.png?v=1619126283");
  background-color: #cccccc;
- max-width: 100%; and height: auto;
+ max-width: 100%; 
+ max-height: 100%;
 }
 
 
