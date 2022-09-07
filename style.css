@@ -1,6 +1,4 @@
-h1 {
-  text-align: center;
-}
+
 
 p {
   font-family: Monospace;
@@ -8,4 +6,22 @@ p {
   font-size: 30px;
   border: solid blue 10px;
   padding: 20px;
+}
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  height: 400px;
+  background-position: center center;
+}
+
+h1 {
+  color: #41292C;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  color: midnightblue;
 }
