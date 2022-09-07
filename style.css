@@ -22,4 +22,5 @@ h1 {
   position: relative;
   text-align: center;
   color: yellow;
+  border: 2px solid yellow;
 }
