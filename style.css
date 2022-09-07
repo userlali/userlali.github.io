@@ -9,19 +9,19 @@ p {
 }
 
 .header {
-  background-image: url(https://www.wired.com/story/opinion-when-coding-is-criminal/);
+  background-image: url("https://sphero.com/blogs/news/types-of-coding-languages");
   height: 400px;
   background-position: center center;
 }
 
 h1 {
   color: #41292C;
-  font-family: 'Covered By Your Grace', sans-serif;
+  font-family: fantasy;
   font-size: 100px;
   line-height: 76px;
   margin: 0;
   position: relative;
   text-align: center;
   top: 20%;
-  color: midnightblue;
+  color: yellow;
 }
