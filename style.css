@@ -24,9 +24,9 @@
 
 
 .aboutme {
+    border: 10px solid black;
     text-alignment: center;
     border-radius: 25px;
-    border: 10px solid black;
     padding: 20px;
     width, height: auto;
 }
