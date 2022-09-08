@@ -11,6 +11,8 @@
 }
 .hero_desc {
     font-size: 2rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
 }
 .hero-text {
     text-align: center;
@@ -19,6 +21,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.hero_desc:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #54b3d6;
 }
 
 
