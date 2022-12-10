@@ -1,5 +1,7 @@
 /* CSS stylesheet for the portfolio website */
 body {
+  /* Use a white text color */
+  color: white;
   /* Use a gradient background color */
   background: linear-gradient(to bottom, #00bfff, #00ff00);
   /* Use a sans-serif font for the text */
@@ -10,8 +12,8 @@ body {
   padding: 1em;
 }
 
-/* Style the header and section elements */
-header, section {
+/* Style the header, section, and nav elements */
+header, section, nav {
   /* Use a white text color */
   color: white;
   /* Use a box shadow to create a raised effect */
@@ -20,16 +22,10 @@ header, section {
   transition: all 0.5s ease;
 }
 
-/* Style the header when it is hovered over */
-header:hover {
+/* Style the header, section, and nav elements when they are hovered over */
+header:hover, section:hover, nav:hover {
   /* Increase the box shadow to create a more pronounced raised effect */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-/* Style the section when it is hovered over */
-section:hover {
-  /* Use a slightly darker gradient background color */
-  background: linear-gradient(to bottom, #0080ff, #00bf00);
 }
 
 /* Style the h1 and h2 elements */
@@ -53,4 +49,24 @@ h2:hover {
   /* Use a larger font size and a different font color */
   font-size: 1.5em;
   color: #00bf00;
+}
+
+/* Style the navigation menu */
+nav {
+  /* Use a white text color for the links */
+  a {
+    color: white;
+  }
+
+  /* Use a smooth transition when hovering over the links */
+  a:hover {
+    transition: all 0.5s ease;
+  }
+
+  /* Style the active page in the navigation menu */
+  a.active {
+    /* Use a different font color and a larger font size */
+    color: #00bf00;
+    font-size: 1.5em;
+  }
 }
