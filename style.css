@@ -1,1 +1,56 @@
+/* CSS stylesheet for the portfolio website */
+body {
+  /* Use a gradient background color */
+  background: linear-gradient(to bottom, #00bfff, #00ff00);
+  /* Use a sans-serif font for the text */
+  font-family: sans-serif;
+  /* Center the content on the page */
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1em;
+}
 
+/* Style the header and section elements */
+header, section {
+  /* Use a white text color */
+  color: white;
+  /* Use a box shadow to create a raised effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Use a smooth transition when hovering over the element */
+  transition: all 0.5s ease;
+}
+
+/* Style the header when it is hovered over */
+header:hover {
+  /* Increase the box shadow to create a more pronounced raised effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the section when it is hovered over */
+section:hover {
+  /* Use a slightly darker gradient background color */
+  background: linear-gradient(to bottom, #0080ff, #00bf00);
+}
+
+/* Style the h1 and h2 elements */
+h1, h2 {
+  /* Use a bold and uppercase font */
+  font-weight: bold;
+  text-transform: uppercase;
+  /* Use a smooth transition when hovering over the element */
+  transition: all 0.5s ease;
+}
+
+/* Style the h1 element when it is hovered over */
+h1:hover {
+  /* Use a larger font size and a different font color */
+  font-size: 2em;
+  color: #00bfff;
+}
+
+/* Style the h2 element when it is hovered over */
+h2:hover {
+  /* Use a larger font size and a different font color */
+  font-size: 1.5em;
+  color: #00bf00;
+}
